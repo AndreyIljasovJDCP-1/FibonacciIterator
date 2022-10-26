@@ -84,7 +84,7 @@ public class Fibonacci implements Iterable<Integer>{
         }
 
         @Override
-        public boolean resetIndex() {
+        public boolean reset() {
             previous = -2;
             current = 1;
             return true;

@@ -19,7 +19,7 @@ public class Main {
         }
         System.out.println("Текущий элемент: " + myIterator.current());
         System.out.println("Предыдущий элемент: " + myIterator.previous());
-        System.out.println("Сброс индекса: " + myIterator.resetIndex());
+        System.out.println("Сброс индекса: " + myIterator.reset());
         System.out.println("Текущий элемент: " + myIterator.current());
         System.out.println("Предыдущий элемент: " + myIterator.previous());
 

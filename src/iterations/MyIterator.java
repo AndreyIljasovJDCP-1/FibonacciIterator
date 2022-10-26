@@ -5,7 +5,7 @@ public interface MyIterator {
 
     int next();
 
-    boolean resetIndex();
+    boolean reset();
 
     boolean hasPrevious();
 
